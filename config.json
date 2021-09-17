@@ -4,7 +4,7 @@
   "slug": "google_sheet",
   "description": "googleSheet",
   "startup": "system",
-  "url":"https://github.com/medinalo/google_sheets",
+  "url":"https://github.com/medinalo/google_sheets.git",
   "boot": "auto",
   "options": {
 		"time": 1.0,
