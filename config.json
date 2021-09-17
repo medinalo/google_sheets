@@ -1,0 +1,24 @@
+{
+  "name": "google_sheet",
+  "version": "4",
+  "slug": "google_sheet",
+  "description": "googleSheet",
+  "startup": "system",
+  "url":"https://github.com/brendena/hassio-addons/tree/master/google_sheets",
+  "boot": "auto",
+  "options": {
+		"time": 1.0,
+		"upload":[
+			{"sheetName": "Datos_Home_assistant",
+			  "entity":"Termo"
+			}
+		]
+	},
+  "schema": {
+		"time": "float",
+		"upload":[
+			{"sheetName": "str", "entity": "str"}
+		]
+	  },
+  "map": ["config:rw","share"]
+}
